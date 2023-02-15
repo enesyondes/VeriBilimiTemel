@@ -1,0 +1,16 @@
+Veri Biliminin temelinde makine öğrenmesi yatar. O yüzden önce makine öğrenmesinin temellerinden başlayalım.
+Makine öğrenmesinin temeli iletişim kavramında yatmaktadır. Bilgisayar ile iletişim kurmamızı sağlayan araç programlama dilleridir.
+Temel programalamada bilgisayara biz her koşulu her ayrıntıyı vermek zorundayız. Fakat temel programlamada koda dökemediğimiz konular var.
+İşte bu noktada makine öğrenmesi - yapay zeka devreye giriyor. Mesela girilen bir resmin kedi olup olmadığını anlayan program.
+Bu örnekte bir kediyi temel programlama ile nasıl ayırt edeceğiz ki diğer varlıklardan yani bir kediyi kedi yapan şey nedir?
+Hatta bir nesneyi kedi olmamaya iten şey nedir? İşte bu sorunları makine öğrenmesi bizim için çözüyor. Nasıl mı?
+Şöyle ki modelimize örnekler verip kedi örneği ve kedi olmayan resimlerin örneklerini verip, bak bu kedidir bu değildir diyerek ona öğretiyoruz ve 
+ona diyoruz ki bunu neyin kedi yaptığını kendin öğren ve bir mantık üret.
+.
+.
+.
+Evet.. Temel bir makine öğrenmesi bilgimiz oldu şimdi veri bilimi dediğimiz bu dalın içinde ki bölüm dağılımına bakalım.
+1-Veri Analisti: Bu arkadaş elimize ilginç patternler bulan ve bize ilham yaratacak kişidir.
+2-İstatikçi: Bulunan patternleri hiç görmediğimiz verilere uygulanabilirliğini test eden kişidir.
+3-Makine Öğrenmesi Mühendisi: En son aşamada istenilen modelleri üreten kişidir.
+Ve tabi ki bu takıma bir lider gerekir karar verme mekanizmasını yönetmek adına önemli kişidir.
