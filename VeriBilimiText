@@ -14,3 +14,55 @@ Evet.. Temel bir makine öğrenmesi bilgimiz oldu şimdi veri bilimi dediğimiz 
 2-İstatikçi: Bulunan patternleri hiç görmediğimiz verilere uygulanabilirliğini test eden kişidir.
 3-Makine Öğrenmesi Mühendisi: En son aşamada istenilen modelleri üreten kişidir.
 Ve tabi ki bu takıma bir lider gerekir karar verme mekanizmasını yönetmek adına önemli kişidir.
+.
+.
+.
+DENETİMLİ ve DENETİMSİZ ÖĞRENME:
+
+1-DENETİMLİ (SUPERVISED) ÖĞRENME:
+      -Etiketleriile birlikte verip bir sonuç bekliyorsam denetimli öğrenmedir
+      
+2-DENETİMSİZ (UNSUPERVISED) ÖĞRENME:
+      -Verdiğimiz örnekleri benzerliklerine göre grupla diyoruz o da bize grupluyor bakıyoruz işimize yarıyorsa o grupları kullanıyoruz eğer işimize 
+        yaramıyorsa daha fazla örnek verip veya bir limit,şart koyup gruplatıyoruz ve bu şekilde işimize yarayana kadar devam ediyoruz.
+.
+.
+.
+REGRESSION ve CLASSIFICATION:
+
+1-Regression:
+      -Eğer benim örneklerle tahmin ettirdiğim şey sürekli değişken bir şey ise kullanılır. Örneğin; ev fiyatı, istatistik bilgisi vb.
+
+2-Classification (SINIFANDIRMA):
+      -Eğer bilmeye çalıştığım şey kategorik bir değişken ise classification. Örneğin; kedi mi köpek mi?, zehirli mi zehirsiz mi? vb.
+      
+      
+VERİ TİPLERİ:
+    -DATA
+        1-NUMERİCAL
+          Continuous
+          Discrete
+        2-CATEGORİCAL
+          Ordinal
+          Nominal
+          
+          
+PREDICTION MANTIK:
+      -Aldığı inputlarla tahmin (ÿ) yapacak, yaptığı tahmin ile gerçek (y) değer error (e) fonksiyonuna verilecek error fonksiyonu aradaki 
+        farka bakacak ve çıktı olarak verecek. Amaç "e" değerini en düşükte tutmak, aza indirmek.
+        
+        # f fonkisyonuna 3 tane değer verdik çıktı olarak ÿ değerini 40 vermiş olsun #
+        # gerçek y değeri ise 50 olsun #
+        f(x1,x2,x3) ---> ÿ = 40              y = 50
+        e(ÿ,y) --->  10 
+        # e fonksiyonu bize aradaki farkı verdi e ne kadar az olursa modelimiz o kadar az hatayla tahminler yapıyor demektir. #
+          
+          
+          
+VERİYİ BÖLMEK:
+      -Eğer traindeki verilerle gerçek hayattaki veriler arasında çok fark çıkıyorsa trainde çok güzel sonuçlar alıp gerçekte uymuyorsa hiç
+        bunu çözmek için makineninoverfit yapmasını engellemem lazım.
+        
+      -Peki bunu nasıl yaparım? Veriyi bölerek; train verisinden bir kısmı kesiyoruz ilk kısmı modele besle ve gömediği kısmı gerçek gibi test et.
+        Ama daha iyisi de yapılamaz mı? Yapılır o da şöyle aşamayı 3'e bölerek test kısmına kendimde ayarlayamayayım diye araya başka bir veri seti (validation) koyarız.
+        Train-Validation-Test bu 3 aşama bana en güzel sonuçları verecektir. Fakat veriyi bölerken dikkat etmemiz lazım ki model daha önce görmediği verileri testte görsün.
