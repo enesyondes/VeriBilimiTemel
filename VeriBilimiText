@@ -66,3 +66,8 @@ VERİYİ BÖLMEK:
       -Peki bunu nasıl yaparım? Veriyi bölerek; train verisinden bir kısmı kesiyoruz ilk kısmı modele besle ve gömediği kısmı gerçek gibi test et.
         Ama daha iyisi de yapılamaz mı? Yapılır o da şöyle aşamayı 3'e bölerek test kısmına kendimde ayarlayamayayım diye araya başka bir veri seti (validation) koyarız.
         Train-Validation-Test bu 3 aşama bana en güzel sonuçları verecektir. Fakat veriyi bölerken dikkat etmemiz lazım ki model daha önce görmediği verileri testte görsün.
+
+YAPAY ZEKADA BİAS (ÖN YARGI):
+      -Yaptığımız modeli kendi biaslarımız etkileyebilir. Bunun önüne geçmek için ekibi farklı görüşlerde insanlarla oluşturmak gerekir. Bu sayede herkes birbirinin 
+       Bias'ını görüp düzeltme sunacaktır.
+
